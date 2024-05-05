@@ -2,7 +2,7 @@
 
     // generic interface
 
-    interface Dev<T,X>{
+    interface Dev<T,X=null>{
         name: string;
         computer: {
             brand: string;
@@ -20,7 +20,7 @@
         heartTrack?:boolean
     }
 
-    const poorDeveloper: Dev<WatchEle, null> = {
+    const poorDeveloper: Dev<WatchEle> = {
         name: "poor dev",
         computer: {
             brand: 'asus',
