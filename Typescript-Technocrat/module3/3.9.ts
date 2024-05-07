@@ -58,6 +58,8 @@
     // const car2 = new Car2()
     // car2.startEngine()
 
+    // ts-node-dev --respawn --transpile-only './module3/3.8.ts'
+
 
 
 
